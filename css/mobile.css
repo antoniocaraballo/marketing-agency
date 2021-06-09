@@ -106,17 +106,25 @@ span {
   }
 
   .about-image img {
+      height: 100%;
       width: 100%;
+      margin-left: 50px;
   }
 
   /* Services */
+
+  .card {
+    width: 80%;
+  }
 
   /* Cards Grid */
 
   .grid-style {
       grid-template-rows: repeat(3, 1fr);
       grid-template-columns: 1fr;
+      margin: 30px auto;
   }
+
 
   /* Testimonials */
 
@@ -130,4 +138,12 @@ span {
 .contact {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    margin: 30px;
 }
+
+.contact-image {
+  width: 80%;
+  margin: 30px;
+}
+

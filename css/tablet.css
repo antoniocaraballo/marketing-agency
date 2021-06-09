@@ -1,0 +1,39 @@
+.ham-menu {
+    visibility: hidden;
+}
+
+nav ul{
+    margin-right: 250px;
+}
+
+/* About */
+
+.about-info {
+    margin: 30px;
+  }
+
+  .about-image {
+      margin: 30px;
+  }
+
+  .about-image img {
+      height: 100%;
+      width: 100%;
+      margin-left: 50px;
+  }
+
+
+  /* Services */
+
+  .card {
+    width: 100%;
+  }
+
+  /* Cards Grid */
+
+  .grid-style {
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 1fr;
+      margin: 30px auto;
+      width: 50%;
+  }
